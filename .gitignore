@@ -1,0 +1,39 @@
+﻿# Visual Studio code files
+.vscode/
+*.sln.docstates
+
+# Build and object files
+**/bin/
+**/obj/
+
+# .NET Core
+project.lock.json
+project.assets.json
+*.nuget.props
+*.nuget.targets
+
+# Logs
+*.log
+*.logs
+
+# User-specific files
+*.userprefs
+*.suo
+*.user
+*.bak
+
+# Visual Studio files
+**/*.VisualState.xml
+**/*.csproj.user
+**/*.dbmdl
+**/*.jfm
+**/PackageReference.txt
+
+# Razor precompiled views
+**/*.PrecompiledViews.dll
+
+# NuGet
+packages/
+
+# Node.js
+node_modules/
