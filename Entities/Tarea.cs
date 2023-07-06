@@ -12,6 +12,7 @@ namespace TareasMVC.Entities
         public string Descripcion { get; set; }
         public int Orden { get; set; }
         public DateTime FechaCreacion { get; set; } = DateTime.Now;
-        public List<Paso> Paso { get; set; }
+        public List<Paso> Pasos { get; set; }
+        public List<ArchivoAdjunto> ArchivosAdjuntos { get; set; }
     }
 }

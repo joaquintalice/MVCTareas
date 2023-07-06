@@ -85,3 +85,8 @@ C:\Users\Administrador\source\repos\testRepo\TareasMVC\obj\Debug\net7.0\refint\T
 C:\Users\Administrador\source\repos\testRepo\TareasMVC\obj\Debug\net7.0\TareasMVC.pdb
 C:\Users\Administrador\source\repos\testRepo\TareasMVC\obj\Debug\net7.0\TareasMVC.genruntimeconfig.cache
 C:\Users\Administrador\source\repos\testRepo\TareasMVC\obj\Debug\net7.0\ref\TareasMVC.dll
+C:\Users\Administrador\source\repos\testRepo\TareasMVC\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Administrador\source\repos\testRepo\TareasMVC\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Administrador\source\repos\testRepo\TareasMVC\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Administrador\source\repos\testRepo\TareasMVC\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Administrador\source\repos\testRepo\TareasMVC\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
