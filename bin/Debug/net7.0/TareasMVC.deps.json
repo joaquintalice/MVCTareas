@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v7.0": {
       "TareasMVC/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.Authentication.Google": "7.0.8",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0-preview.5.23280.1",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.0-preview.5.23280.1"
@@ -55,6 +56,14 @@
           "lib/net6.0/Humanizer.dll": {
             "assemblyVersion": "2.14.0.0",
             "fileVersion": "2.14.1.48190"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.Google/7.0.8": {
+        "runtime": {
+          "lib/net7.0/Microsoft.AspNetCore.Authentication.Google.dll": {
+            "assemblyVersion": "7.0.8.0",
+            "fileVersion": "7.0.823.31807"
           }
         }
       },
@@ -716,6 +725,13 @@
       "sha512": "sha512-lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.Google/7.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4yiXtRVf5HwrdOcZ04SA2ON3bMweYzhIvSDGnIdP0jsYUW83yvMuTXXNoVP42oqc5fNUEz7q2RtWc0woZHCS1w==",
+      "path": "microsoft.aspnetcore.authentication.google/7.0.8",
+      "hashPath": "microsoft.aspnetcore.authentication.google.7.0.8.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Cryptography.Internal/7.0.8": {
       "type": "package",

@@ -9,7 +9,6 @@ var builder = WebApplication.CreateBuilder(args);
 
 var politicaUsuariosAutenticados = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();
 
-
 // Add services to the container.
 builder.Services.AddControllersWithViews(options =>
 {
@@ -17,7 +16,12 @@ builder.Services.AddControllersWithViews(options =>
 });
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer("name=DefaultConnection"));
 
-builder.Services.AddAuthentication();
+builder.Services.AddAuthentication().AddGoogle(options => 
+{
+    options.ClientId = builder.Configuration["GoogleClientId"];
+    options.ClientSecret = builder.Configuration["GoogleSecretId"];
+});
+
 builder.Services.AddIdentity<IdentityUser, IdentityRole>(options => {
     options.SignIn.RequireConfirmedAccount = false;
 }).AddEntityFrameworkStores<ApplicationDbContext>().AddDefaultTokenProviders();

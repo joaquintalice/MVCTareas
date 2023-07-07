@@ -246,7 +246,7 @@ namespace TareasMVC.Migrations
 
                     b.HasIndex("TareaId");
 
-                    b.ToTable("ArchivosAdjuntos");
+                    b.ToTable("ArchivosAdjuntos", (string)null);
                 });
 
             modelBuilder.Entity("TareasMVC.Entities.Paso", b =>
@@ -271,7 +271,7 @@ namespace TareasMVC.Migrations
 
                     b.HasIndex("TareaId");
 
-                    b.ToTable("Pasos");
+                    b.ToTable("Pasos", (string)null);
                 });
 
             modelBuilder.Entity("TareasMVC.Entities.Tarea", b =>
@@ -298,7 +298,7 @@ namespace TareasMVC.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Tareas");
+                    b.ToTable("Tareas", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
