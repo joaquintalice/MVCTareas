@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Identity;
+using System.ComponentModel.DataAnnotations;
 using System.Reflection.Metadata.Ecma335;
 
 namespace TareasMVC.Entities
@@ -12,6 +13,8 @@ namespace TareasMVC.Entities
         public string Descripcion { get; set; }
         public int Orden { get; set; }
         public DateTime FechaCreacion { get; set; } = DateTime.Now;
+        public string UsuarioCreacionId { get; set; }
+        public IdentityUser UsuarioCreacion { get; set; }
         public List<Paso> Pasos { get; set; }
         public List<ArchivoAdjunto> ArchivosAdjuntos { get; set; }
     }
